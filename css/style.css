@@ -369,7 +369,8 @@ html {
 .form-row {
     margin-bottom: 20px;
 }
-.form-row--last{
+
+.form-row--last {
     display: flex;
     justify-content: flex-end;
 }
@@ -383,9 +384,9 @@ html {
 }
 
 .checkbox-input:focus,
-.form-control:focus{
+.form-control:focus {
     border-color: var(--c-main);
-    box-shadow: 0 3px 6px rgba(255,0,0,0.3);
+    box-shadow: 0 3px 6px rgba(255, 0, 0, 0.3);
     outline: none;
 }
 
@@ -422,7 +423,7 @@ html {
     color: #666;
 }
 
-.form-btn{
+.form-btn {
     width: 140px;
     height: 40px;
     border-radius: 50px;
@@ -432,11 +433,50 @@ html {
     font-weight: bold;
     cursor: pointer;
     background: none;
-    box-shadow: 0 3px 6px rgba(255,0,0,0.3);
+    box-shadow: 0 3px 6px rgba(255, 0, 0, 0.3);
 }
 
-.form-btn:focus{
+.form-btn:focus {
     outline: none;
     background: var(--c-main);
     color: white;
+}
+
+.footer {
+    background-color: #28272C;
+    height: 232px;
+    padding-top: 40px;
+}
+
+.footer-logo {
+    font-size: 25px;
+}
+
+.footer-list {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    list-style: none;
+    line-height: 23px;
+}
+
+.list-container {
+    display: flex;
+    gap: 200px;
+}
+
+.list-container p {
+    margin-left: auto;
+    margin-top: auto;
+    color: #D1D1D1;
+    font-size: 12px;
+}
+
+.footer-list {
+    padding: 0;
+}
+
+.left-list li:first-child {
+    color: var(--c-main);
 }
